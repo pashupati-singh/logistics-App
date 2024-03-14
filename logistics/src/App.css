@@ -1,0 +1,11 @@
+.App {
+  display: flex;
+  justify-content: center;
+  height: 95vh;
+  /* background-color: cornflowerblue; */
+}
+.container {
+  width: 95%;
+  padding: 10px;
+  /* background-color: brown; */
+}

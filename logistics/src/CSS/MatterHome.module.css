@@ -1,0 +1,104 @@
+.headings{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  
+}
+
+.headings hr {
+    border: 0;
+  height: 5px; 
+  background-color: rgb(52, 138, 244); 
+   width: 250px;
+   margin: auto;
+}
+
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.subtitle{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin: 5px;
+    font-size: 18px;
+}
+.logCont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtitle1{
+    line-height: 200%;
+    word-spacing: 0.5rem;
+    font-size: 20px;
+    width: 70%;
+}
+
+.logContImg{
+   width: 25%;
+}
+
+.servicesDIV{
+    display: flex;
+    justify-content: space-between;
+}
+
+.servicesDIV div{
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgba(211, 211, 211, 0.832);
+    border-radius: 4px;
+    margin: 2px;
+}
+
+.servicesDIV div:hover{
+    border: 2px solid rgba(114, 142, 240, 0.832);
+    cursor: pointer;
+}
+
+.servicesDIV div img {
+    width: 70%;
+    margin: auto;
+}
+
+.servicesDIV div p {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 70%;
+    margin: auto;
+    padding-top: 30%;
+    color: grey;
+}
+
+.contact{
+    margin-top: 20px;
+    word-spacing: 0.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: grey;
+}
+
+.email {
+    color: #007bff;
+    text-decoration: none;
+  }
+  .email:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width : 1000px) and (min-width:700px){
+    .logContImg{
+        display: block;
+    }
+  }
+  
+  
+  @media screen and (max-width:700px){
+    .logContImg{
+        display: block;
+    }
+  
+  }

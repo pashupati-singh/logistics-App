@@ -1,0 +1,46 @@
+.headings{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  
+}
+
+.headings hr {
+    border: 0;
+  height: 5px; 
+  background-color: rgb(52, 138, 244); 
+   width: 250px;
+   margin: auto;
+}
+
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.subtitle{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.subtitle1{
+    line-height: 200%;
+    word-spacing: 0.5rem;
+    font-size: 20px;
+    padding: 0 20px 0 20px;
+    margin-bottom: 20px;
+}
+.logCont{
+    margin: 25px 20px 0 20px;
+    text-align: start;
+}
+
+.hr{
+    border: 0;
+    height: 2px; 
+    background-color: rgb(206, 208, 209); 
+     width: 100%;
+     margin: auto;
+}

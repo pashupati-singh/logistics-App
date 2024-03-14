@@ -1,0 +1,76 @@
+ .headings{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contactContainer{
+    background-color: rgb(232, 232, 232);
+
+}
+
+.headings hr {
+    border: 0;
+  height: 5px; 
+  background-color: rgb(52, 138, 244); 
+   width: 200px;
+   margin: auto;
+}
+
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+} 
+
+.imgs{
+    width: 35%;
+    border-radius: 50%;
+  }
+
+  .person{
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    
+  }
+
+  .person h2 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: Inter, Helvetica, Arial, Verdana, sans-serif;
+    color: rgb(45, 46, 46);
+    text-align: center;
+  }
+
+  .person h2 span {
+    color: rgb(28, 28, 92);
+  }
+
+  .personContainer{
+    display: flex;
+    /* background-color: bisque; */
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 10px;
+    width: 70%;
+  }
+  .personsubContainer{
+    /* background-color: brown; */
+    width: 22%;
+  }
+  .email {
+    color: #007bff;
+    text-decoration: none;
+    /* white-space: nowrap; */
+  }
+  .email:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .personsubContainer h3 {
+    font-size: 20px;
+  }
+  .personsubContainer p {
+    margin-top: 5px;
+  }
+
