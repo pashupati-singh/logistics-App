@@ -40,8 +40,11 @@
 }
 
 .servicesDIV{
-    display: flex;
-    justify-content: space-between;
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   row-gap: 20px;
+   column-gap: -20px;
+   text-align: center;
 }
 
 .servicesDIV div{
@@ -58,7 +61,7 @@
 }
 
 .servicesDIV div img {
-    width: 70%;
+    width: 60%;
     margin: auto;
 }
 
@@ -89,16 +92,39 @@
     cursor: pointer;
   }
 
-  @media screen and (max-width : 1000px) and (min-width:700px){
+  @media screen and (max-width : 900px) and (min-width:740px){
     .logContImg{
         display: block;
+    }
+    .subtitle1{
+        line-height: 200%;
+        word-spacing: 0.3rem;
+        font-size: 15px;
+        width: 100%;
+        /* background-color: #007bff; */
+    }
+    .servicesDIV{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        
     }
   }
   
   
-  @media screen and (max-width:700px){
+  @media screen and (max-width:740px){
     .logContImg{
         display: block;
     }
-  
+    .subtitle1{
+        line-height: 200%;
+        word-spacing: 0.2rem;
+        font-size: 12px;
+        width: 100%;
+        /* background-color: #007bff; */
+    }
+    .servicesDIV{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+    }
   }

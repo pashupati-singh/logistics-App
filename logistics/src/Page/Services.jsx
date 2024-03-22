@@ -5,7 +5,6 @@ import { useParams } from 'react-router-dom';
 
 export const Services = () => {
   const { serviceName = "Default Service"  } = useParams();
-  // const serviceRef = useRef(null);
 
   const waterServiceRef = useRef(null);
   const airServiceRef = useRef(null);
@@ -35,18 +34,6 @@ export const Services = () => {
     }
   };
 
-  // useEffect(() => {
-  //   const currentServiceRef = getServiceRef(serviceName);
-  //   console.log(currentServiceRef);
-  //   if (currentServiceRef) {
-  //     console.log(currentServiceRef);
-  //     currentServiceRef.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  //   } else {
-  //     console.log(currentServiceRef);
-  //     window.scrollTo(0, 0);
-  //   }
-  // }, [serviceName]);
-
 
   return (
     <div >
@@ -64,21 +51,11 @@ export const Services = () => {
 }
 
 </p>
-          <hr style={{width:'700px'}} />
+          <hr style={{width:'60%'}} />
          </div>
       <div className={style.subtitle1}>
-      
-We provide very competitive rates on full container load FCL and LCL shipments from all major transit points around the globe. Even if your shipment is of somewhat smaller size, we also offer less than container load departures between all major transit points in the world. 
+      We provide very competitive rates on full container load FCL and LCL shipments from all major transit points around the globe. Even if your shipment is of somewhat smaller size, we also offer less than container load departures between all major transit points in the world. With a comprehensive range of FCL & LCL services, we offer consolidation/Deconsolidation and back to back services as and when required. We have built an extensive network of agents that makes us able to provide secure, efficient and timely delivery of Cargo. The vast number of Import/Export ranges covered by us and the large volumes handled by us enable us to consolidate direct containers from specific locations which in turn enables us to control transit time and cost. We provide efficient Consolidation service to our Customers. The alacrity with which we work shows our ability to handle fragile and sensitive shipments. We have a committed network of integrated air and ground services that enables us to handle from pick up to prompt delivery. We offer a full line of dry containers, high cube containers, open top, flat racks, tanks, and refrigerated containers. Containers of all types - 20 and 40', closed and open top are handled via our trucking service. The services we offer in Consolidation include.We have special pricing for FCL Booking customers. It is available at highly competitive pricing that is normally associated with implementing this type of facility – covering small and medium scale shippers.
       </div>
-  <div className={style.subtitle1}>
-  With a comprehensive range of FCL & LCL services, we offer consolidation/Deconsolidation and back to back services as and when required. We have built an extensive network of agents that makes us able to provide secure, efficient and timely delivery of Cargo. The vast number of Import/Export ranges covered by us and the large volumes handled by us enable us to consolidate direct containers from specific locations which in turn enables us to control transit time and cost. We provide efficient Consolidation service to our Customers. The alacrity with which we work shows our ability to handle fragile and sensitive shipments. We have a committed network of integrated air and ground services that enables us to handle from pick up to prompt delivery. We offer a full line of dry containers, high cube containers, open top, flat racks, tanks, and refrigerated containers. Containers of all types - 20', 22', 40', closed and open top are handled via our trucking service. The services we offer in Consolidation include
-  </div>
-
-<div className={style.subtitle1}>
-We have special pricing for FCL Booking customers. It is available at highly competitive pricing that is normally associated with implementing this type of facility – covering small and medium scale shippers.
-
-
-</div>
       </div>
       <hr className={style.hr} />
 
@@ -91,7 +68,7 @@ We have special pricing for FCL Booking customers. It is available at highly com
     "AIR FREIGHT AND FORWARDING SERVICES"
   )
 }</p>
-          <hr style={{width:'600px'}} />
+          <hr style={{width:'55%'}} />
          </div>
       <div className={style.subtitle1}>
       In a competitive Era, We offer a comprehensive range of On Air freight . On volumetric consignments, you can also avail of discounted rates.  We provide efficient inward and outward consolidation service to Indian exporters and importers.  The alacrity with which we work shows our ability to handle fragile and sensitive shipments. We have a committed network of integrated air and ground services that enables us to handle from pick up to prompt delivery. 
@@ -119,13 +96,14 @@ Our Global network of professional Agents is familiar with the customs and regul
   )
 }</p>
        
-          <hr style={{width:'400px'}} />
+          <hr style={{width:'45%'}} />
          </div>
       <div className={style.subtitle1}>
       We strive to extend standard services across vast distances and through rough terrain all across India. Our motivated staff and our expertise in the industry always keep us on schedule by rail and road. We provide relocation and movement of both bulk and containerized goods. We offer a variety of transport solutions, be it group age or other transport services such as part and full load shipments by road, railways or a combination of two.
+
       </div>
   <div className={style.subtitle1}>
-  We offer Quality Container Trucking services as per the comfortability of our customers. We acquaint ourselves as one of the most trusted Container trucking service providers in Singapore. Our pricing is among the best in the industry. We offer safe, dry, and secure storage and transportation of containers from reaching to a wide classification of customers. We provide on time Containerized door to door services. We have our own fleet of containers and containerized vehicles. Our containers pass through the most stringent test before loading - like humidity check, leakage check, and floor check only after these tests a container in loaded and set for the road
+  We offer Quality Container Trucking services as per the comfortability of our customers. We acquaint ourselves as one of the most trusted Container trucking service providers in Singapore. Our pricing is among the best in the industry. We offer safe, dry, and secure storage and transportation of containers from reaching to a wide classification of customers. We provide on time Containerized door to door services. We have our own fleet of containers and containerized vehicles. Our containers pass through the most stringent test before loading - like humidity check, leakage check, and floor check only after these tests a container in loaded and set for the road.
   </div>
       </div>
       <hr className={style.hr} />
@@ -140,7 +118,7 @@ Our Global network of professional Agents is familiar with the customs and regul
   )
 }</p>
          
-          <hr style={{width:'400px'}} />
+          <hr style={{width:'40%'}} />
          </div>
       <div className={style.subtitle1}>
       Detail freight and forwarding private limited provides warehousing and distribution centers for companies with a need for a high-performance, yet flexible infrastructure. Through our shared logistics capabilities, our customers gain the benefits of our customized services. We offer real-time access to inventory status using a simple, intuitive method in managing your inventory.
@@ -161,48 +139,59 @@ Our Global network of professional Agents is familiar with the customs and regul
     "PORT HANDLING SERVICES"
   )
 }</p>
-          <hr style={{width:'400px'}} />
+          <hr style={{width:'40%'}} />
          </div>
       <div className={style.subtitle1}>
       Detail freight and forwarding pvt ltd  is capable of managing the total logistics solution for handling Project Cargo which requires experienced, dedicated and skilled personnel who are committed to resolve the problems professionally if arises in extraordinary circumstances and thus we have the sense of knowledge to 'make things happen'.
       </div>
   <div className={style.subtitle1}>
-
   We offer Project Cargo Services which include planning, port feasibility studies, conceptual design of port and other maritime transport projects, trade and traffic forecasts, financing strategies. For the execution of these services out of the box thinking is required in order to create and implement effective solutions.
   </div>
 
 <div className={style.subtitle1}>
-
-DFF consists of a team of highly experienced individuals who are well versed in all the aspects of Break-Bulk and Odd Dimensional Cargo (ODC) cargo. With tenacious stevedoring partners located in key transport hubs around the world, Galliard has close relationships with leading ship owners, operators, co-brokers throughout the world and are able to provide best possible space in vessels while dramatically reducing costs whilst providing reliable cargo transportation.
+DFF consists of a team of highly experienced individuals who are well versed in all the aspects of Break-Bulk and Odd Dimensional Cargo (ODC) cargo. With tenacious stevedoring partners located in key transport hubs around the world, DFF has close relationships with leading ship owners, operators, co-brokers throughout the world and are able to provide best possible space in vessels while dramatically reducing costs whilst providing reliable cargo transportation.
 </div>
 <hr className={style.hr} />
       </div>
-      <div ref={cargoTransportServiceRef} className={style.logCont}>
+     
+      <hr />
+      <div className={style.logCont}>
          <div className={style.headings}>
-         <p  className={style.title}>{serviceName === "Default Service" ? 
-  "CARGO TRANSPORT AND INSURANCE SERVICES" :
-  (serviceName === "CARGO TRANSPORT AND INSURANCE SERVICES" ? 
-    serviceName :
-    "CARGO TRANSPORT AND INSURANCE SERVICES"
-  )
-}</p>
-          <hr style={{width:'670px'}} />
+         <p  className={style.title}>DFF Services in the area include:-</p>
+          <hr style={{width:'40%'}} />
          </div>
-      <div className={style.subtitle1}>
-      
-We also facilitate cargo insurance to our customers. There are Three Basic Policies (in the Old Cargo Clauses) Our Cargo Insurance services are rated amongst the best in the industry for we take care of your cargo's Insurance right from the port of discharge to the port of destination, covering aspects of natural calamities, Fire, theft, pilferage etc. In case of short landing or damages / pilferages detected after landing inside the port area, we arrange surveys of damages and assist our customers to file a claim with the insurance company, besides claiming duty remission, wherever applicable.
-      </div>
-  <div className={style.subtitle1}>
-  
-Similarly, if any damages or pilferages take place after customs clearance, on route in transit, from port to final destination, we will arrange for a survey at the unloading point and seek compensation from the insurance company for the loss suffered.
-  </div>
+         <div className={style.pointslist}>
+           <div className={style.point}>
+           <div className={style.pointcircle}></div>
+           <div className={style.subtitle11}>Supervision of cargo loading / discharging.
+          </div>
+          </div>
+          <div className={style.point}>
+           <div className={style.pointcircle}></div>
+           <div className={style.subtitle11}>Continuous cargo management throughout transportation
+          </div>
+          </div>
+          <div className={style.point}>
+           <div className={style.pointcircle}></div>
+           <div className={style.subtitle11}>Competitive break bulk rates
+          </div>
+          </div>
+          <div className={style.point}>
+           <div className={style.pointcircle}></div>
+           <div className={style.subtitle11}>Stevedoring teams with specialised heavy / oversized cargo experience.
+          </div>
+          </div>
+          <div className={style.point}>
+           <div className={style.pointcircle}></div>
+           <div className={style.subtitle11}>Special permits and customs clearance.</div>
+           </div></div>
+          <div className={style.point}>
+           <div className={style.pointcircle}></div>
+           <div className={style.subtitle11}>Full and part charter of vessels when required.</div>
 
-<div className={style.subtitle1}>
-
-All the survey and the claim formalities will be completed simultaneously so that either the declaration and clearance of cargo at port or consumption of the cargo after delivery does not suffer any abnormal delay.
+         </div>
+        </div>
 </div>
-<hr className={style.hr} />
-      </div>
-    </div>
+      
   )
 }

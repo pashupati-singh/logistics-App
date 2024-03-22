@@ -17,6 +17,9 @@ export const SliderComponent = () => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000, 
+        initialSlide: 1,
       };
   return (
     <div style={{ height:"500px"}}>

@@ -8,6 +8,15 @@
 
 }
 
+.regards p{
+  line-height: 120%;
+  word-spacing: 0.5rem;
+  font-size: 20px;
+  padding: 0 0px 10px 10px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
 .headings hr {
     border: 0;
   height: 5px; 
@@ -47,20 +56,22 @@
 
   .personContainer{
     display: flex;
-    /* background-color: bisque; */
     justify-content: space-between;
+    align-items: center;
     margin: auto;
     margin-top: 10px;
     width: 70%;
+    /* background-color: #007bff; */
   }
   .personsubContainer{
-    /* background-color: brown; */
     width: 22%;
-  }
+    margin: auto;
+    /* background-color: rgb(231, 137, 14); */
+    /* text-align: center; */
+  } 
   .email {
     color: #007bff;
     text-decoration: none;
-    /* white-space: nowrap; */
   }
   .email:hover {
     text-decoration: underline;
@@ -74,3 +85,60 @@
     margin-top: 5px;
   }
 
+
+  @media screen and (max-width : 900px) and (min-width:740px){
+   
+  
+    .person h2 {
+      font-size: 30px;
+    }
+  .imgs{
+    width: 55%;
+    border-radius: 50%;
+  }
+  .personsubContainer{
+    width: 30%;
+    margin: auto;
+  }
+  .regards p{
+    line-height: 120%;
+    word-spacing: 0.3rem;
+
+  }
+  }
+
+  
+  
+  
+  @media screen and (max-width:740px) and (min-width:500px){
+    .personsubContainer{
+      width: 30%;
+      margin: auto;
+    }
+  
+    .person h2 {
+      font-size: 25px;
+      font-weight: 500;
+    }
+    .regards p{
+      line-height: 120%;
+      word-spacing: 0.3rem;
+  
+    }
+  }
+
+  @media screen and (max-width:500px) {
+    .personsubContainer{
+      width: 60%;
+      margin: auto;
+    }
+    .person h2 {
+      font-size: 25px;
+      font-weight: 500;
+    }
+    .regards p{
+      line-height: 120%;
+      word-spacing: 0.3rem;
+  
+    }
+  }

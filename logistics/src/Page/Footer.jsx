@@ -10,7 +10,7 @@ export const Footer = () => {
     <div>
        <div> <img width={'100%'} src={img} alt="err" /></div>
        <div className={style.footerContainer}>
-            <h2 className={style.footerTitle}>FREIGHT AND FORWARDING PVT. LMT.</h2>
+            <h2 className={style.footerTitle}>DETAIL FREIGHT AND FORWARDING PVT. LTD.</h2>
            <div className={style.footerIcons}>
            <Icon as={FaFacebook} boxSize={10} color="blue.500" />
             <Icon as={FaLinkedin} boxSize={10} color="blue.500" />

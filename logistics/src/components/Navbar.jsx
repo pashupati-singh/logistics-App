@@ -32,7 +32,7 @@ export const Navbar = () => {
     <nav className={style.Nav}>
       <div className={style.NavImgDiv}>
         <img className={style.NavImg} src={Image} alt="error" onClick={() => navigate('/')} />
-        <p>FREIGHT AND FORWARDING PVT. LMT.</p>
+        {isSmallScreen?<p>DETAIL FREIGHT AND FORWARDING PVT. LTD.</p>:<p style={{fontSize:"20px"}}>DETAIL FREIGHT AND FORWARDING PVT. LTD.</p>}
       </div>
       
       {isSmallScreen ? (

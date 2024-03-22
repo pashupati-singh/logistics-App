@@ -35,3 +35,35 @@
     margin: 25px 20px 0 20px;
     text-align: start;
 }
+
+
+@media screen and (max-width : 900px) and (min-width:740px){
+   
+    .subtitle1{
+        line-height: 200%;
+        word-spacing: 0.3rem;
+        font-size: 15px;
+        width: 100%;
+    }
+    .servicesDIV{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        
+    }
+  }
+  
+  
+  @media screen and (max-width:740px){
+   
+    .subtitle1{
+        line-height: 200%;
+        word-spacing: 0.2rem;
+        font-size: 12px;
+        width: 100%;
+    }
+    .servicesDIV{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+  }
