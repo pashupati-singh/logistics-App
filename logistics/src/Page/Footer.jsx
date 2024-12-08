@@ -16,9 +16,9 @@ export const Footer = () => {
             <Icon as={FaLinkedin} boxSize={10} color="blue.500" /> */}
            </div>
            <div className={style.footerAddress}>
-              <p>Plot No. 24 , Sector-5</p>
-              <p >Sainik Enclave, Uttam Nagar,Mohan Garden</p>
-              <p > Delhi 110059</p>
+              <p>Plot No. 24, Sector-5</p>
+              <p >Sainik Enclave, Uttam Nagar, Mohan Garden</p>
+              <p >New Delhi 110059</p>
            </div>
            <p className={style.footerCopyRight}>Copyright © 2024 Freight And Forwarding Inc- All Rights Reserved.</p>
        </div>

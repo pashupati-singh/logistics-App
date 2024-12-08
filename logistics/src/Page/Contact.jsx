@@ -17,7 +17,7 @@ export const Contact = () => {
         <hr />
       </div>
         <div className={style.person}>
-          <h2><span>Y</span>our <span>S</span>pokesperson</h2>
+          {/* <h2><span>Y</span>our <span>S</span>pokesperson</h2> */}
           <div className={style.personContainer}>
             <div className={style.personsubContainer} >
             <img className={style.imgs} src={img2} alt="err" />

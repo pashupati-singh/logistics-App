@@ -96,7 +96,7 @@ export const MatterHome = () => {
         rel="noopener noreferrer">
             <div  style={{ display: 'flex', alignItems: 'center' , justifyContent:"center" }}>
             <EmailIcon color='rgb(50, 90, 139)' style={{ marginRight: '8px',marginTop:"5px"}} />
-             <span className={style.email}>Gunjan@detailfreight.com</span>
+             <span className={style.email}>gunjan@detailfreight.com</span>
             </div>
             </Link> 
         </div>

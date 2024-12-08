@@ -103,7 +103,7 @@ Our Global network of professional Agents is familiar with the customs and regul
 
       </div>
   <div className={style.subtitle1}>
-  We offer Quality Container Trucking services as per the comfortability of our customers. We acquaint ourselves as one of the most trusted Container trucking service providers in Singapore. Our pricing is among the best in the industry. We offer safe, dry, and secure storage and transportation of containers from reaching to a wide classification of customers. We provide on time Containerized door to door services. We have our own fleet of containers and containerized vehicles. Our containers pass through the most stringent test before loading - like humidity check, leakage check, and floor check only after these tests a container in loaded and set for the road.
+  We offer Quality Container Trucking services as per the comfortability of our customers. We acquaint ourselves as one of the most trusted Container trucking service providers in India and overseas. Our pricing is among the best in the industry. We offer safe, dry, and secure storage and transportation of containers from reaching to a wide classification of customers. We provide on time Containerized door to door services. We have our own fleet of containers and containerized vehicles. Our containers pass through the most stringent test before loading - like humidity check, leakage check, and floor check only after these tests a container in loaded and set for the road.
   </div>
       </div>
       <hr className={style.hr} />

@@ -14,10 +14,10 @@ export const About = () => {
       <div className={style.logCont}>
       
       <div className={style.subtitle1}>
-      Detail Freight and Forwarding Pvt.Ltd (DFF) is a developing organization dealing in International Freight forwarding, including IMPORT and EXPORT, custom house broking, insurance services, port handling, project movement , inventory management and other logistical solutions. We provide customized deals to our clients keeping in the frame the time, cost and services at the acme of priorities. We have a team of dynamic professionals with a strong background in t0he logistics industry having experience of more than 10 years.
+      Detail Freight and Forwarding Pvt. Ltd. (DFF) is a developing organization dealing in International Freight forwarding, including IMPORT and EXPORT, custom house Broker, insurance services, port handling, project movement , inventory management and other logistical solutions. We provide customized deals to our clients keeping in the frame the time, cost and services at the acme of priorities. We have a team of dynamic professionals with a strong background in the logistics industry having experience of more than 10 years.
       </div>
   <div className={style.subtitle1}>
-  The DFF's headquarter is located at New Delhi. We ascertain efficient handling and clearing of import and export cargo from the ICD's, CFS and all the airports and other parts of the country through our network. We also undertake bulk chartering of vessels at all major Indian ports.We have a well established network of agents across all the cities and at all the major ports of the world.
+  The DFF's headquarter is located at New Delhi. We ascertain efficient handling and clearing of import and export cargo from the ICD's, CFS and all the airports and other parts of the country through our network. We also undertake bulk chartering of vessels at all major Indian ports. We have a well established network of agents across all the cities and at all the major ports of the world.
   </div>
 
 <div className={style.subtitle1}>
