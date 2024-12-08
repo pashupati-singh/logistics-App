@@ -91,16 +91,18 @@ export const MatterHome = () => {
          <div className={style.contact}>
          <div>
           For any inquiries, email us at:
-          <Link to={'https://mail.google.com/mail/u/0/#inbox?compose=new'}>
+          <Link  to={'https://mail.google.com/mail/u/0/#inbox?compose=new'}
+        target="_blank"
+        rel="noopener noreferrer">
             <div  style={{ display: 'flex', alignItems: 'center' , justifyContent:"center" }}>
             <EmailIcon color='rgb(50, 90, 139)' style={{ marginRight: '8px',marginTop:"5px"}} />
-             <span className={style.email}>Sales@detailfreightandforwarding.com</span>
+             <span className={style.email}>Gunjan@detailfreight.com</span>
             </div>
             </Link> 
         </div>
           <div style={{ display: 'flex', alignItems: 'center' , justifyContent:"center" }}>
             <PhoneIcon color='rgb(50, 90, 139)'  style={{ marginRight: '8px' }} />
-            <span>+91 7011224374</span>
+            <span>+91 9891482525</span>
         </div>
          </div>
          </div>

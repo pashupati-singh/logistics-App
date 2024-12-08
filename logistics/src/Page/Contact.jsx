@@ -21,15 +21,15 @@ export const Contact = () => {
           <div className={style.personContainer}>
             <div className={style.personsubContainer} >
             <img className={style.imgs} src={img2} alt="err" />
-              <h3>Nawal Kishor</h3>
+              <h3>Gunjan Soni</h3>
               <div style={{ display: 'flex', alignItems: 'center' , justifyContent:"center",marginLeft:"-55px" }}>
             <PhoneIcon color='rgb(50, 90, 139)'  style={{ marginRight: '8px' }} />
-            <span>+91 7011224374</span>
+            <span>+91 9891482525</span>
             </div>
               <Link to={'https://mail.google.com/mail/u/0/#inbox?compose=new'}>
-            <div  style={{ display: 'flex', alignItems: 'center' , justifyContent:"center" , marginLeft:"50%"}}>
+            <div  style={{ display: 'flex', alignItems: 'center' , justifyContent:"center" , marginLeft:"10px"}}>
             <EmailIcon color='rgb(50, 90, 139)' style={{ marginRight: '8px',marginTop:"5px"}} />
-             <span className={style.email} >nawal@detailfreightandforwarding.com</span>
+             <span className={style.email} >gunjan@detailfreight.com</span>
             </div>
             </Link> 
             

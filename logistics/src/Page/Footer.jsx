@@ -12,13 +12,13 @@ export const Footer = () => {
        <div className={style.footerContainer}>
             <h2 className={style.footerTitle}>DETAIL FREIGHT AND FORWARDING PVT. LTD.</h2>
            <div className={style.footerIcons}>
-           <Icon as={FaFacebook} boxSize={10} color="blue.500" />
-            <Icon as={FaLinkedin} boxSize={10} color="blue.500" />
+           {/* <Icon as={FaFacebook} boxSize={10} color="blue.500" />
+            <Icon as={FaLinkedin} boxSize={10} color="blue.500" /> */}
            </div>
            <div className={style.footerAddress}>
               <p>Plot No. 24 , Sector-5</p>
               <p >Sainik Enclave, Uttam Nagar,Mohan Garden</p>
-              <p >New Delhi , West Delhi, Delhi 110059</p>
+              <p > Delhi 110059</p>
            </div>
            <p className={style.footerCopyRight}>Copyright © 2024 Freight And Forwarding Inc- All Rights Reserved.</p>
        </div>
